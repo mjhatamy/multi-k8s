@@ -17,8 +17,7 @@ spec:
           image: mjhatamy/multi-server
           resources:
             limits:
-              memory: "128Mi"
-              cpu: "500m"
+              memory: "256Mi"
           ports:
             - containerPort: 5000
           env:
